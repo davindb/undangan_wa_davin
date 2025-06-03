@@ -51,7 +51,7 @@ try:
     )
 
     # Show message below
-    # st.code(undangan_text, language="markdown")
+    st.code(undangan_text, language="markdown")
 
 except Exception as e:
     st.error(f"Error loading data from Google Sheets: {e}")
